@@ -196,3 +196,4 @@ console.log("Lowest Salary Employee:", lowest.name, "-", lowest.salary);
 console.log("Total Employees:", totalEmployees);
 console.log("Total Salary Expenditure:", totalSalary);
 
+// 
