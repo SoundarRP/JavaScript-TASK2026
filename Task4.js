@@ -327,21 +327,17 @@ let communication = prompt("Communication (good/poor)").toLowerCase();
 let technicalScore = Number(prompt("Enter Technical Score"));
 
 if (degreeCompleted === "yes") {
-
     if (communication === "good") {
-
         if (technicalScore >= 70) {
             console.log("Selected");
         }
         else {
             console.log("Rejected: Technical Score is below 70");
         }
-
     }
     else {
         console.log("Rejected: Communication is not Good");
     }
-
 }
 else {
     console.log("Rejected: Degree Not Completed");
