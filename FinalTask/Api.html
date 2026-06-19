@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="Api.css">
+</head>
+<body>
+        <h1>E-Commerce Product Dashboard</h1>
+
+  <div class="controls">
+    <input
+      type="text"
+      id="search"
+      placeholder="Search Product..."
+    />
+
+    <select id="category">
+      <option value="all">All</option>
+      <option value="men's clothing">Men's Clothing</option>
+      <option value="women's clothing">Women's Clothing</option>
+      <option value="electronics">Electronics</option>
+      <option value="jewelery">Jewelry</option>
+    </select>
+
+    <h3>Cart: <span id="cartCount">0</span></h3>
+
+    <h2>Cart Items</h2>
+    <div id="cartItems"></div>
+  </div>
+
+  <div id="loading"></div>
+
+  <div id="stats"></div>
+
+  <div id="products" class="products"></div>
+    <script src="./Api.js"></script>
+</body>
+</html>
